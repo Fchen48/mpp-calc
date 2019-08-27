@@ -1,0 +1,22 @@
+head
+    title MPP Calculator
+    link(type='text/css' rel='stylesheet' href='../css/style.css' media='screen,projection')
+    link(type='text/css' rel='stylesheet' href='../css/materialize.css' media='screen,projection')
+    script(src="../js/materialize.js")
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    meta(http-equiv='Content-Security-Policy' content='default-src \'self\'; style-src \'unsafe-inline\' \'self\'; img-src \'self\'; script-src \'unsafe-inline\'')
+    meta(charset='utf-8')
+body
+    header
+        td MPP Calculator
+        button#close.right.button.button-x(onclick='window.close();')
+            img(width='12' src='../images/close.svg' onclick='window.close();')
+        button#minimize.right.button(onclick='electron.ipcRenderer.send(\'window:minimize\');')
+            img(width='12' src='../images/minimize.svg')
+    main
+        block content
+    footer
+        p.center © 2019 Windkraft Simonsfeld AG
+    script.
+        const electron = require('electron');
+    block script

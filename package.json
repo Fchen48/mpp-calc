@@ -1,0 +1,34 @@
+{
+  "name": "mpp-calc",
+  "version": "1.0.0",
+  "description": "Calculator for PV MPP Trackers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "prepack": "electron-packager . mpp-calc --overwrite --platform=win32 --arch=x64 --icon=images/favicon.ico --prune=true --out=releaseBuilds --version-string.CompanyName=\"Windkraft Simonsfeld AG\" --version-string.FileDescription=\"Program for MPP Tracker calculation.\" --version-string.ProductName=\"MPP Calculator\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fchen48/mpp-calc.git"
+  },
+  "keywords": [
+    "WKS", 
+    "Windkraft Simonsfeld AG",
+    "PV",
+    "MPP",
+    "Calculator"
+  ],
+  "author": "Mario Fridrichovsky",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Fchen48/mpp-calc/issues"
+  },
+  "homepage": "https://github.com/Fchen48/mpp-calc#readme",
+  "devDependencies": {
+    "electron": "^6.0.4"
+  },
+  "dependencies": {
+    "electron-pug": "^2.0.0"
+  }
+}
