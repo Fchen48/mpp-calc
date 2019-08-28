@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
     setTimeout(() => {
-        document.getElementById("panelAmount").value = 5715;
-        document.getElementById("inverterAmount").value = 2;
-        document.getElementById("mppAmount").value = 1;
-        document.getElementById("stringMin").value = 15;
-        document.getElementById("stringMax").value = 19;
+        // document.getElementById("panelAmount").value = 5715;
+        // document.getElementById("inverterAmount").value = 2;
+        // document.getElementById("mppAmount").value = 1;
+        // document.getElementById("stringMin").value = 15;
+        // document.getElementById("stringMax").value = 19;
 
         inputCollaps.open();
     }, 500);

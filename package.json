@@ -1,12 +1,13 @@
 {
   "name": "mpp-calc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculator for PV MPP Trackers",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint . js && npm audit",
     "start": "electron .",
-    "prepack": "electron-packager . mpp-calc --overwrite --platform=win32 --arch=x64 --icon=images/favicon.ico --prune=true --out=releaseBuilds --version-string.CompanyName=\"Windkraft Simonsfeld AG\" --version-string.FileDescription=\"Program for MPP Tracker calculation.\" --version-string.ProductName=\"MPP Calculator\""
+    "prepack": "electron-packager . mpp-calc --overwrite --platform=win32 --arch=x64 --icon=images/favicon.ico --prune=true --out=releaseBuilds --version-string.CompanyName=\"Windkraft Simonsfeld AG\" --version-string.FileDescription=\"Program for MPP Tracker calculation.\" --version-string.ProductName=\"MPP Calculator\"",
+    "postpack": "innosetup-compiler install.iss --gui"
   },
   "repository": {
     "type": "git",

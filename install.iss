@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MPP-Calculator"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "Windkraft Simonsfeld AG"
 #define MyAppURL "https://www.wksimonsfeld.at/"
 #define MyAppExeName "mpp-calc.exe"
