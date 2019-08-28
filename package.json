@@ -1,6 +1,6 @@
 {
   "name": "mpp-calc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculator for PV MPP Trackers",
   "main": "app.js",
   "scripts": {
