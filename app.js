@@ -11,7 +11,8 @@ app.on("ready", () => {
     setTimeout(() => {
         const woptions = {
             webPreferences: {
-                nodeIntegration: true
+                nodeIntegration: true,
+                devTools: false
             },
             show: false,
             frame: false,
