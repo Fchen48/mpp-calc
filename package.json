@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Fchen48/mpp-calc#readme",
   "devDependencies": {
-    "electron": "^6.0.4"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "electron-pug": "^2.0.0"
